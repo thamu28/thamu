@@ -1,0 +1,51 @@
+/* load a font family from Google fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    position: absolute;
+    background-color: rgb(54, 92, 73); /* change the background color */
+    color: rgb(192, 192, 209); /* change the text color */
+    padding: 10px 0;
+    margin: 20px 20px;
+  }
+  
+  header {
+    color:rgb(239, 239, 239);
+    font-size: 32px; /* change font size */
+    font-weight: bold; /* add the font weight */
+    padding: 10px; 
+    margin-bottom: 10px;
+    font-style:inherit;  /* change the font style */ 
+  }
+
+  h2{
+    color: #fff;
+    font-size: 32px;
+    padding: 0;
+  }
+
+  section { 
+    padding: 20px; /* add padding between sections */
+    margin: 20px 0; /* add margin bwtween sections */
+    border: solid 6px black;
+  }
+
+  #About {
+    background-color: #cf910b;
+    text-align: left;
+    padding: 30px 20px; 
+  }
+
+  #Experience {
+    background-color: #cf910b;
+    text-align: left;
+    padding: 30px 20px; 
+    list-style: block;
+  }
+
+  #Connect {
+    background-color: #cf910b;
+    text-align: left;
+    padding: 30px 20px; 
+    margin: 0;
+  }
