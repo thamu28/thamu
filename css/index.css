@@ -1,0 +1,120 @@
+/* load a font family from Google fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  
+    header {
+    color:rgb(239, 239, 239);
+    font-size: 32px; /* change font size */
+    font-weight: bold; /* add the font weight */
+    font-style:inherit;  /* change the font style */ 
+    text-align: center;
+    padding: 10px; 
+    margin-bottom: 10px;
+    background-color: rgb(89, 83, 83);
+    position: sticky;
+    top: 0; 
+    left: 0;
+    right: 0;
+    }
+
+    .navbar ul {
+    list-style-type: none;
+    background-color: #cf910b;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    }
+
+    .navbar a {
+    color:aliceblue; 
+    text-decoration: none;
+    padding: 15px;
+    display: block; 
+    text-align: center;
+    }
+
+    .navbar a:hover {
+    background-color: rgb(198, 178, 152);
+    }
+
+    .navbar li { 
+    float: left;
+    font-size: large;
+    padding: 5px;
+    }
+
+    main {
+    
+    color: rgb(192, 192, 209); /* change the text color */
+    padding: 10px 0;
+    margin: 20px 20px;
+    }
+
+    h2{
+    color: #863a3a;
+    font-size: 32px;
+    padding: 0;
+    }
+
+    section { 
+    padding: 20px; /* add padding between sections */
+    margin: 20px 0; /* add margin bwtween sections */
+    border: solid 6px black;
+    }
+
+    #About {
+    background-color: #cf910b;
+    text-align: left;
+    padding: 30px 20px; 
+    }
+
+    #Experience {
+    background-color: #cf910b;
+    text-align: left;
+    padding: 30px 20px; 
+    list-style: block;
+    }
+    
+    .job {
+    margin-bottom: 25px; /* space between job */
+    }
+
+    .job-header {
+    margin-bottom: 10px; /* space between job-header */
+    display: flex; 
+    justify-content: space-between; /* align job title to the left and dates to the right */
+    align-items: center; /* center the items vertically */ 
+    }
+
+    .job-title {
+    font-size: large; 
+    font-weight: 200;
+    color: black;
+    }
+
+    .job-date {
+    font-style: italic;
+    color: rgb(62, 61, 61); /* lighter color for the date */
+    }
+
+    .job-description {
+    padding-left: 10px;
+    font-size: medium;
+    line-height: 1.5;
+    }
+
+    #Skills {
+    background-color: #cf910b;
+    padding: 30px 20px; 
+    }
+
+    #Projects {
+    background-color: #cf910b;
+    padding: 30px 20px; 
+    }
+
+    #Connect {
+    background-color: #cf910b;
+    text-align: left;
+    padding: 30px 20px; 
+    margin: 0;
+    }
